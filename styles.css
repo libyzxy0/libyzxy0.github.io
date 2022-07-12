@@ -70,3 +70,6 @@ body {
   display: inline-block;
   color: rgba(0,0,0,.5);
 }
+a {
+  text-decoration: none;
+} 
