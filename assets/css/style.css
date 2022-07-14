@@ -377,7 +377,7 @@ header .navbar ul li a:hover{
     color: white;
     font-size: 50px;
 }
-.top i:hover {
+.top i:focus {
     color: var(--primary);
 }
 
