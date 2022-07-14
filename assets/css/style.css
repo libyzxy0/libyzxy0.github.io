@@ -373,9 +373,10 @@ header .navbar ul li a:hover{
     display: none;
 }
 
-
-
-
+.top i {
+    color: white;
+    font-size: 50px;
+}
 
 
 
