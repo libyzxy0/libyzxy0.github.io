@@ -302,6 +302,9 @@ header .navbar ul li a:hover{
     width:100%;
     object-fit: cover;
 }
+.projects .box-container .box img:hover {
+    transform: scale(1.2);
+}
 .contact .row{
     display: flex;
     align-items: center;
