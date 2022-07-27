@@ -279,7 +279,7 @@ header .navbar ul li a:hover{
     background:var(--primary);
 }
 
-.portfolio .box-container{
+.projects .box-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -287,7 +287,7 @@ header .navbar ul li a:hover{
     padding:2rem 0;
 }
 
-.portfolio .box-container .box{
+.projects .box-container .box{
     height: 20rem;
     width:26rem;
     border-radius: 1rem;
@@ -296,16 +296,11 @@ header .navbar ul li a:hover{
     cursor: pointer;
 }
 
-.portfolio .box-container .box img{
+.projects .box-container .box img{
     height:100%;
     width:100%;
     object-fit: cover;
 }
-
-.portfolio .box-container .box:hover img{
-    transform: scale(1.2);
-}
-
 .contact .row{
     display: flex;
     align-items: center;
@@ -469,7 +464,7 @@ header .navbar ul li a:hover{
         width:100%;
     }
 
-    .portfolio .box-container .box{
+    .projects .box-container .box{
         width:100%;
     }
 
