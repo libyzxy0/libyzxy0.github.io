@@ -297,6 +297,7 @@ header .navbar ul li a:hover{
     margin:2rem;
     overflow: hidden;
     cursor: pointer;
+    border: 2px solid var(--primary);
 }
 
 .projects .box-container .box img{
