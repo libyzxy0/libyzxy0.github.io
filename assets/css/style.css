@@ -450,13 +450,14 @@ footer .footer_links:hover {
     box-shadow: 10px 10px 60px var(--primary);
 } 
 footer .copyright {
-    margin-top: 5%;
+    margin-top: 10%;
 }
 footer .copyright h1 {
     color: white;
     font-size: 14px;
     text-align: center;
     text-transform: none;
+    margin: 15px 10px;
 }
 footer .c_copyright{
     color: white;
