@@ -345,7 +345,6 @@ header .navbar ul li a:hover{
 
 .contact .row form .message{
     height: 15rem;
-    resize: none;
 }
 
 .contact .row .content .title{
