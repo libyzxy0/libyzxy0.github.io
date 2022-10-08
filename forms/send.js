@@ -12,7 +12,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 //Vatriables
-let dataDir = "db-libyzxy0/libyzxy0.github.io"
+let dataDir = "db-libyzxy0/libyzxy0"
 let formID = "sendForm"
 
 
