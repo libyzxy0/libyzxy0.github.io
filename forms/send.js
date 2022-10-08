@@ -22,18 +22,22 @@ document.getElementById(formID).addEventListener("submit", submitForm);
 
 function submitForm(e) {
   e.preventDefault();
-  
+
+  var email = getIDS("email");
+  var about = getIDS("about");
   var msg = getIDS("msg");
   
-  saveData(msg);
+  saveData(email, about, msg);
   
   document.getElementById(formID).reset();
 }
 
-var saveData = (msg) => {
+var saveData = (email, about, msg) => {
   var msgData = msgDB.push();
 
   msgData.set({
+    email: email,
+    about: about,
     msg: msg,
   });
 };
