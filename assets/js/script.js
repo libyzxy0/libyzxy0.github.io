@@ -39,7 +39,7 @@ $(document).ready(function(){
 
 //Audio
 
-var x = document.getElementById("mySong"); 
+var x = document.getElementById("myAudio"); 
 function playSong() {
 x.play(); 
 }
