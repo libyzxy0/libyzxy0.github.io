@@ -39,10 +39,10 @@ $(document).ready(function(){
 
 //Audio
 
-var sound = document.getElementById("mySong"); 
-      function playSong() {
-      sound.play(); 
-      }
+var x = document.getElementById("mySong"); 
+function playSong() {
+x.play(); 
+}
 
 //Modal
 var modal = document.getElementById("myModal_1");
