@@ -36,6 +36,14 @@ $(document).ready(function(){
   });
 
 });
+
+//Audio
+
+var sound = document.getElementById("mySong"); 
+      function playSong() {
+      sound.play(); 
+      }
+
 //Modal
 var modal = document.getElementById("myModal_1");
 var btn = document.getElementById("myBtn_1");
